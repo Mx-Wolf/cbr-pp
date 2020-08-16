@@ -12,8 +12,8 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "(C) Maxim Volkov",
+  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.2",
