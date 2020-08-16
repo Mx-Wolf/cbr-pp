@@ -377,7 +377,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="ea"><span data-c="e0">ea0</span></td> */}
           {/* <td data-cid="f"><span data-c="f0">f0</span></td> */}
           <td data-cid="g" className="left-border underlined label"><span data-c="g0">вид оп.</span></td>
-          <td data-cid="h" colSpan={3} className="left-border "><span data-c="h0" className="ВидОперации">01</span></td>
+          <td data-cid="h" colSpan={3} className="left-border "><span data-c="h0" className="ВидОперации">{ВидОплаты}</span></td>
           {/* <td data-cid="i"><span data-c="i0">i0</span></td> */}
           {/* <td data-cid="j"><span data-c="j0">j0</span></td> */}
           <td data-cid="k" className="left-border underlined label"><span data-c="k0">Срок платежа</span></td>
@@ -395,7 +395,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="ea"><span data-c="e0">ea0</span></td> */}
           {/* <td data-cid="f"><span data-c="f0">f0</span></td> */}
           <td data-cid="g" className=" left-border underlined label"><span data-c="g0">Наз. пл.</span></td>
-          <td data-cid="h" colSpan={3} className="left-border"><span data-c="h0" /></td>
+          <td data-cid="h" colSpan={3} className="left-border"><span data-c="h0">{КодНазПлатежа}</span></td>
           {/* <td data-cid="i"><span data-c="i0">i0</span></td> */}
           {/* <td data-cid="j"><span data-c="j0">j0</span></td> */}
           <td data-cid="k" className="left-border underlined label"><span data-c="k0">Очер. плат.</span></td>
@@ -413,7 +413,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="ea"><span data-c="e0">ea0</span></td> */}
           {/* <td data-cid="f"><span data-c="f0">f0</span></td> */}
           <td data-cid="g" className="left-border underlined label"><span data-c="g0">Код</span></td>
-  <td data-cid="h" colSpan={3} className="left-border underlined"><span data-c="h0" className="Код">{Код}</span></td>
+          <td data-cid="h" colSpan={3} className="left-border underlined"><span data-c="h0" className="Код">{Код}</span></td>
           {/* <td data-cid="i"><span data-c="i0">i0</span></td> */}
           {/* <td data-cid="j"><span data-c="j0">j0</span></td> */}
           <td data-cid="k" className="left-border underlined label"><span data-c="k0">Рез. поле</span></td>
@@ -422,20 +422,20 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="n"><span data-c="n0">m0</span></td> */}
         </tr>
         <tr data-rid={18}>
-          <td data-cid="a" colSpan={5} className="underlined"><span data-c="a0">182102020010611010160</span></td>
+          <td data-cid="a" colSpan={5} className="underlined"><span data-c="a0">{ПоказательКБК}</span></td>
           {/* <td data-cid="b"><span data-c="b0">b0</span></td> */}
           {/* <td data-cid="c"><span data-c="c0"></span></td> */}
           {/* <td data-cid="d"><span data-c="d0">d0</span></td> */}
           {/* <td data-cid="da"><span data-c="d0">da0</span></td> */}
-          <td data-cid="e" className="left-border"><span data-c="e0">45888307</span></td>
-          <td data-cid="ea" colSpan={2} className="left-border"><span data-c="e0">ТП</span></td>
+          <td data-cid="e" className="left-border"><span data-c="e0">{ОКАТО}</span></td>
+          <td data-cid="ea" colSpan={2} className="left-border"><span data-c="e0">{ПоказательОснования}</span></td>
           {/* <td data-cid="f"><span data-c="f0">f0</span></td> */}
-          <td data-cid="g" className="left-border"><span data-c="g0">MC.05.2017</span></td>
-          <td data-cid="h" colSpan={3} className="left-border"><span data-c="h0">0</span></td>
+          <td data-cid="g" className="left-border"><span data-c="g0">{ПоказательПериода}</span></td>
+          <td data-cid="h" colSpan={3} className="left-border"><span data-c="h0">{ПоказательНомера}</span></td>
           {/* <td data-cid="i" class="left-border"><span data-c="i0">0</span></td> */}
           {/* <td data-cid="j"><span data-c="j0">j0</span></td> */}
-          <td data-cid="k" className="left-border"><span data-c="k0">0</span></td>
-          <td data-cid="l" colSpan={2} className="left-border"><span data-c="l0" /></td>
+          <td data-cid="k" className="left-border"><span data-c="k0">{ПоказательДаты}</span></td>
+          <td data-cid="l" colSpan={2} className="left-border"><span data-c="l0">{ПоказательТипа}</span></td>
           {/* <td data-cid="m"><span data-c="m0">m0</span></td> */}
           {/* <td data-cid="n"><span data-c="n0">m0</span></td> */}
         </tr>
