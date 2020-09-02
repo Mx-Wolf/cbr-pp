@@ -1,0 +1,23 @@
+    .label {
+      font-size: x-small;
+      text-align: center;
+    }
+
+    .underlined {
+      border-bottom: 1px solid black;
+    }
+
+    .left-border {
+      border-left: 1px solid black;
+    }
+
+    .ПлательщикИНН,
+    .ПолучательИНН,
+    .ПолучательКПП,
+    .ПлательщикКПП {
+      margin-left: 0.7em;
+    }
+
+    table {
+      border-collapse: collapse;
+    }

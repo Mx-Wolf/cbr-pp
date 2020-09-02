@@ -440,7 +440,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="n"><span data-c="n0">m0</span></td> */}
         </tr>
         <tr data-rid={19} style={{ height: '2.0cm' }}>
-          <td data-cid="a" colSpan={15}><span data-c="a0" className="НазначениеПлатежа">НазначениеПлатежа</span></td>
+          <td data-cid="a" colSpan={15}><span data-c="a0" className="НазначениеПлатежа">{НазначениеПлатежа}</span></td>
           {/* <td data-cid="b"><span data-c="b0">b0</span></td> */}
           {/* <td data-cid="c"><span data-c="c0"></span></td> */}
           {/* <td data-cid="d"><span data-c="d0">d0</span></td> */}
@@ -458,9 +458,9 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="n"><span data-c="n0">m0</span></td> */}
         </tr>
         <tr data-rid={20}>
-          <td data-cid="a" colSpan={2} className="underlined label"><span data-c="a0">Назначение платежа</span></td>
+          <td data-cid="a" colSpan={3} className="underlined label"><span data-c="a0">Назначение платежа</span></td>
           {/* <td data-cid="b"><span data-c="b0">b0</span></td> */}
-          <td data-cid="c" colSpan={13} className="underlined"><span data-c="c0" />{НазначениеПлатежа}</td>
+          <td data-cid="c" colSpan={12} className="underlined"><span data-c="c0" /></td>
           {/* <td data-cid="d"><span data-c="d0">d0</span></td> */}
           {/* <td data-cid="da"><span data-c="d0">da0</span></td> */}
           {/* <td data-cid="e"><span data-c="e0">e0</span></td> */}
