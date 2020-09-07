@@ -105,11 +105,11 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           <td data-cid="da"><span data-c="d0" className="Номер">{Номер}</span></td>
           <td data-cid="e"><span data-c="e0" /></td>
           <td data-cid="ea"><span data-c="e0" /></td>
-          <td data-cid="f" colSpan={3} className="underlined"><span data-c="f0" className="Дата">{Дата}</span></td>
+          <td data-cid="f" colSpan={3} className="underlined Дата"><span data-c="f0" >{Дата}</span></td>
           {/* <td data-cid="g"><span data-c="g0">g0</span></td> */}
           {/* <td data-cid="h"><span data-c="h0">h0</span></td> */}
           <td data-cid="i"><span data-c="i0" /></td>
-          <td data-cid="j" colSpan={3} className="underlined"><span data-c="j0" className="ВидПлатежа">{ВидПлатежа}</span></td>
+          <td data-cid="j" colSpan={3} className="underlined ВидПлатежа"><span data-c="j0">{ВидПлатежа}</span></td>
           {/* <td data-cid="k"><span data-c="k0">k0</span></td> */}
           {/* <td data-cid="l"><span data-c="l0">l0</span></td> */}
           <td data-cid="m"><span data-c="m0">{СтатусСоставителя}</span></td>
@@ -421,7 +421,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="m"><span data-c="m0">m0</span></td> */}
           {/* <td data-cid="n"><span data-c="n0">m0</span></td> */}
         </tr>
-        <tr data-rid={18}>
+        <tr data-rid={18} style={{ height: '0.5cm' }}>
           <td data-cid="a" colSpan={5} className="underlined"><span data-c="a0">{ПоказательКБК}</span></td>
           {/* <td data-cid="b"><span data-c="b0">b0</span></td> */}
           {/* <td data-cid="c"><span data-c="c0"></span></td> */}

@@ -21,3 +21,8 @@
     table {
       border-collapse: collapse;
     }
+    .ДатаСписания, 
+    .Дата, 
+    .ВидПлатежа {
+      text-align: center;
+    }
