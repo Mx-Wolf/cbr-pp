@@ -10,7 +10,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "move": "copy src\\*.css dist\\ /Y"
   },
   "keywords": [],
   "author": "(C) Maxim Volkov",
