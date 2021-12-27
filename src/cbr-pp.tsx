@@ -98,12 +98,12 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="n"><span data-c="n0"></span></td> */}
         </tr>
         <tr data-rid={1}>
-          <td data-cid="a" colSpan={4}><span data-c="a0">Платежное поручение №</span></td>
+          <td data-cid="a" colSpan={5}><span data-c="a0">Платежное поручение №</span></td>
           {/* <td data-cid="b"><span data-c="b0">b0</span></td> */}
           {/* <td data-cid="c"><span data-c="c0">c0</span></td> */}
           {/* <td data-cid="d"><span data-c="d0">d0</span></td> */}
-          <td data-cid="da"><span data-c="d0" className="Номер">{Номер}</span></td>
-          <td data-cid="e"><span data-c="e0" /></td>
+          {/* <td data-cid="da"><span data-c="d0" ></span></td> */}
+          <td data-cid="e"><span data-c="e0" className="Номер"/>{Номер}</td>
           <td data-cid="ea"><span data-c="e0" /></td>
           <td data-cid="f" colSpan={3} className="underlined Дата"><span data-c="f0" >{Дата}</span></td>
           {/* <td data-cid="g"><span data-c="g0">g0</span></td> */}
@@ -131,7 +131,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="k"><span data-c="k0">k0</span></td> */}
           {/* <td data-cid="l"><span data-c="l0">l0</span></td> */}
           <td data-cid="m"><span data-c="m0" /></td>
-          <td data-cid="n"><span data-c="n0" /></td>
+          {/* <td data-cid="n"><span data-c="n0" /></td> */}
         </tr>
         <tr data-rid={3} style={{ height: '1.5cm' }}>
           <td data-cid="a" colSpan={2} className="label underlined"><span data-c="a0">Сумма прописью</span></td>
@@ -167,7 +167,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="k"><span data-c="k0">k0</span></td> */}
           {/* <td data-cid="l"><span data-c="l0">l0</span></td> */}
           {/* <td data-cid="m"><span data-c="m0">m0</span></td> */}
-          <td data-cid="n"><span data-c="n0" /></td>
+          {/* <td data-cid="n"><span data-c="n0" /></td> */}
         </tr>
         <tr data-rid={41}>
           <td data-cid="a" colSpan={8} rowSpan={2}><span data-c="a0">{Плательщик}</span></td>
@@ -221,7 +221,7 @@ export const CbrPp: React.FC<Partial<CbrPpProps>> = (p) => {
           {/* <td data-cid="k"><span data-c="k0">k0</span></td> */}
           {/* <td data-cid="l"><span data-c="l0">l0</span></td> */}
           {/* <td data-cid="m"><span data-c="m0">m0</span></td> */}
-          <td data-cid="n"><span data-c="n0" /></td>
+          {/* <td data-cid="n"><span data-c="n0" /></td> */}
         </tr>
         <tr data-rid={7}>
           <td data-cid="a" rowSpan={2} colSpan={8}><span data-c="a0" className="ПлательщикБанк1">{ПлательщикБанк1}</span></td>
